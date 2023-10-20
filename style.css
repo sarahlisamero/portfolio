@@ -1,0 +1,274 @@
+a, h1, h2, h3, p {
+    color: #050505;
+}
+
+#fronth1 {
+    font-size: 1.2em;
+    margin: 0 auto;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+p, li{
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.beigebg {
+    background-color: #fcf7f2;
+}
+
+.verticalcenter {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    color: #050505;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 40px; 
+    right: 20px;
+    flex-direction: column;
+    z-index: 2; 
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 10px; 
+    right: 20px; 
+    z-index: 3; 
+}
+
+.bar {
+    background-color: #050505;
+    height: 2px;
+    width: 30px;
+    margin: 4px 0;
+    transition: 0.2s;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-icon.active .bar:first-child {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-icon.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.active .bar:last-child {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav a:active {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+#line {
+    background-color: #050505;
+    height: 0.8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+  
+.mobileProject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mobileProject img{
+    width:300px;
+    margin:10px;
+}
+h1{
+    font-family: Futura PT;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h2{
+    font-family: Futura PT;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.projectP{
+    text-align: center;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-left:5%;
+    margin-right:5%;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line1{
+    margin-right: 20px;
+}
+.line2{
+    margin-left: 20px;
+}
+.circular-image {
+    border-radius: 50%;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Make sure the width and height are the same to create a perfect circle */
+    object-fit: cover; /* This property helps maintain the image's aspect ratio while filling the circle */
+}
+.about{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+ul {
+    list-style-type: none; /* Remove the default list-style (bullet) */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 5px;
+}
+#diffline {
+    background-color: #050505 ;
+    opacity: 0.5;
+    height: 0.8px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left:8%;
+    margin-right:8%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.progress-container {
+    width: 160px;
+    height: 20px;
+    background-color: #eee;
+    margin: 20px 0;
+    border-radius:5px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #050505;
+    border-radius: 5px;
+    transition: width 2s;
+}
+
+.progress-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+@media (min-width: 769px) {
+    .menu {
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        top:10px;
+    }
+    .menu-icon {
+        display: none; 
+    }
+    nav a {
+        font-size:24px;
+    }
+    .mobileProject img{
+        width:400px;
+        margin:10px;
+    }
+    .projecth1{
+        font-size: 50px;
+    }
+    .projectP{
+        font-size: 20px;
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+    .date{
+        font-size: 18px;
+    }
+    .about{
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .about div{
+        width:340px;
+        padding-left: 60px;
+    }
+    .about h1{
+        text-align: left;
+    }
+    #diffline {
+        margin-left:12%;
+        margin-right:12%;
+    }
+    .skills{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width:600px;
+    }
+}
+@media (min-width: 900px){
+    #diffline {
+        margin-left:16%;
+        margin-right:16%;
+    } 
+}
