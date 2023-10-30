@@ -141,7 +141,7 @@ h1{
     text-align: center;
 }
 h2{
-    font-family: Futura PT;
+    font-family: "futura-pt", sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 350;
@@ -243,6 +243,9 @@ li {
     }
     nav a {
         font-size:24px;
+    }
+    .marginnav{
+        margin-bottom: 80px;
     }
     .mobileProject img{
         width:400px;
