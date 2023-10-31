@@ -108,6 +108,10 @@ nav a:active {
     text-underline-offset: 0.5em;
 }
 
+.marginnav{
+    margin-bottom: 80px;
+}
+
 #line {
     background-color: #050505;
     height: 0.8px;
@@ -230,6 +234,9 @@ li {
     font-size: 18px;
     font-weight: bold;
 }
+#contact{
+    font-size: 24px;
+}
 @media (min-width: 769px) {
     .menu {
         display: flex;
@@ -244,9 +251,9 @@ li {
     nav a {
         font-size:24px;
     }
-    .marginnav{
+    /*.marginnav{
         margin-bottom: 80px;
-    }
+    }*/
     .mobileProject img{
         width:400px;
         height: 300px;
@@ -287,6 +294,9 @@ li {
         justify-content: space-between;
         max-width:600px;
         margin: 0 auto;
+    }
+    #contact{
+        font-size: 50px;
     }
 }
 @media (min-width: 900px){
