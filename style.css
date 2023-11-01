@@ -40,7 +40,7 @@ header {
 }
 
 .smallLogo {
-    width: 50px;
+    width: 40px;
     position: absolute;
     padding: 10px 20px;
 }
@@ -175,9 +175,9 @@ h2{
 }
 .circular-image {
     border-radius: 50%;
-    width: 300px; /* Adjust the width as needed */
-    height: 300px; /* Make sure the width and height are the same to create a perfect circle */
-    object-fit: cover; /* This property helps maintain the image's aspect ratio while filling the circle */
+    width: 300px;
+    height: 300px; 
+    object-fit: cover; 
 }
 .about{
     margin-top: 20px;
