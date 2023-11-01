@@ -152,7 +152,7 @@ h2{
     line-height: normal;
     letter-spacing: 2px;
 }
-.projectP{
+.projectP, .skillsProject p{
     text-align: center;
     font-family: sofia-pro, sans-serif;
     font-style: normal;
@@ -170,6 +170,21 @@ h2{
 .line1{
     margin-right: 20px;
 }
+/*wrap skillsProject for mobile*/
+.skillsProject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.skillsProject p{
+    background-color: #f2f2f2;/*#fcf7f2;*/
+    padding: 10px;
+    border-radius: 5px;
+}
 .line2{
     margin-left: 20px;
 }
@@ -186,7 +201,7 @@ h2{
     margin-right: 8%;
 }
 ul {
-    list-style-type: none; /* Remove the default list-style (bullet) */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
 }
@@ -251,9 +266,6 @@ li {
     nav a {
         font-size:24px;
     }
-    /*.marginnav{
-        margin-bottom: 80px;
-    }*/
     .mobileProject img{
         width:400px;
         height: 300px;
