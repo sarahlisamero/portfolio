@@ -1,7 +1,9 @@
 a, h1, h2, h3, p {
     color: #050505;
 }
-
+body{
+    overflow-x: hidden;
+}
 #fronth1 {
     font-size: 1.2em;
     margin: 0 auto;
