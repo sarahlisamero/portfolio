@@ -141,7 +141,12 @@ nav a:active {
   
     position: relative;
 }
-.overlay {
+.overlay{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+/*.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -161,7 +166,7 @@ nav a:active {
     color: white;
     font-size: 24px;
     text-decoration: none;
-}
+}*/
 h1{
     font-family: "futura-pt", sans-serif;
     font-size: 40px;
